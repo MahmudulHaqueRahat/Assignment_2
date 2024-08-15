@@ -36,7 +36,6 @@
   .card-txt{
     font-size: 2.5rem;
     color: rgb(255, 255, 255);
-    
   }
   /* navbar */
   .nav-home{
@@ -49,16 +48,29 @@
     margin: 0 auto;
     align-items: center;
      padding : 0 100px;
+     
   }
   .nav-link{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     font-weight: 400;
+    
+    
     }  
   .nav-item{
     list-style: none;
     margin-right: 47px;
+    
+  }
+  .navbar{
+
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 39px; 
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    padding-left: 5px;
   }
   .nav-head{
     color: rgb(230, 83, 60);
@@ -146,6 +158,63 @@ font-weight: 600;
 }
 /* media query */
 @media screen and (max-width: 576px) {
+  .navbar{
+    display: none;
+  }
+  .nav,.ban,.ban-img{
+    padding: 0px;
+    padding-left: 20px;
+  }
+  .ban-contain{
+    flex-direction: column;
+  }
+.banner{
+  max-height:1400px ;
+}
+.ban-head{
+  max-width: 416px;
+}
+.ban{
+   border: 1px solid orange;
+   max-width:576px;
+  padding-right: 67px;
+  font-size:1.2rem;
+}
+ 
+.ban-img{
+  border: 1px solid blue;
+  max-width: 353px;
+}
+ .btn-12{
+  text-align: center;
+}
+.ban-card1{
+ top: 227%;
+  left: 55%;
+}
+.ban-card2{
+  top: 300%;
+   left: 15%;
+ }
+ .ban-card1,.ban-card2{
+  width: 145.91px;
+  height: 74.09px;
+ }
+ .circle{
+  top: 302%;
+  left: 16.3%;
+  width: 28px;
+height: 28px;
+}
+.card-txt{
+  font-size: 1.89rem;
+}
+.small{
+   font-size: 0.62rem;
+}
+.banner-cont{
+  text-align: center;
+   padding-left: 5px;
+}
 
-  
 }
