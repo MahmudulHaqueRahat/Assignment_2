@@ -17,14 +17,26 @@
     justify-content: space-between;
   }
   .banner{
+    
     background: linear-gradient(180.00deg, rgb(17, 17, 17),
-    rgba(119, 119, 119, 10) 100%);
+    rgba(119, 119, 119, 10) 230%);
+    max-height:715px ;
+    margin: 0 auto;
   }
   .btn{
     border: none;
     border-radius: 42px;
     background: rgb(230, 83, 60);
     padding: 16px  40px;
+  }
+  .small{
+    color: rgba(255, 255, 255, 0.5);
+     font-size: 1rem;
+  }
+  .card-txt{
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    
   }
   /* navbar */
   .nav-home{
@@ -33,9 +45,10 @@
     padding: 5px 20px 5px 20px;
   }
   .nav{
-    max-width: 1150px;
+    max-width: 100%;
     margin: 0 auto;
     align-items: center;
+     padding : 0 100px;
   }
   .nav-link{
     text-decoration: none;
@@ -60,23 +73,56 @@ font-weight: 800;
   }
   .shape{
     font-family: Miama;
-    font-size: 4.5rem;
+    font-size: 6rem;
   }
   .ban{
-      max-width: 480px;
-       padding-left: 100px;
-       padding-bottom: 70px;
+      max-width: 450px;
+      padding-left: 100px;
    }
    .ban-img{
+    position: relative;
+    padding-top: 30px;
     padding-right: 130px;
+    max-height: 95%;
    }
+   .ban-card1{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px; 
+    background: rgba(48, 48, 48, 0.54); 
+    position: absolute;
+    top: 42%;
+    left: 83%;
+    width: 193px;
+    height: 98px;
+  }
+ 
+.ban-card2{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px; 
+  background: rgba(48, 48, 48, 0.54); 
+  width: 206px;
+  height: 90px;
+  position: absolute;  
+    top: 80%;
+    left: 60%;
+}
+.circle{
+  background-color: tomato;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  border-radius:100%;
+  top: 82%;
+  left: 60.55%;
+  
+}
    .ban-contain{
     display: flex;
     justify-content: space-between;
    }
 .ban-head{
   color: rgb(255, 255, 255);
-font-size: 4.3rem;
+font-size: 4.5rem;
  font-weight: 900;
 }
 .ban-dis{
@@ -97,4 +143,9 @@ font-weight: 600;
   color: rgb(255, 255, 255);
   font-size: 1rem;
   font-weight: 600;
+}
+/* media query */
+@media screen and (max-width: 576px) {
+
+  
 }
